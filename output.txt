@@ -1,0 +1,103 @@
+Enter the input file name (.txt file): input3.txt
+
+Matrix A (3x3):
+1 0 0
+0 1 0
+0 0 1
+
+Matrix B (3x3):
+0 0 0
+0 0 0
+0 0 0
+
+--- Matrix Actions ---
+1. Update a matrix element
+2. Display matrix operations
+3. Swap rows/columns of matrix
+4. Exit
+Enter your choice (1-4): 1
+Which matrix do you want to update? (A/B): B
+Enter row index (starts at 0): 1
+Enter column index (starts at 0): 2
+Enter new value: 9
+
+Matrix after updating element at (1, 2) to 9:
+0 0 0
+0 0 9
+0 0 0
+
+--- Matrix Actions ---
+1. Update a matrix element
+2. Display matrix operations
+3. Swap rows/columns of matrix
+4. Exit
+Enter your choice (1-4): 3
+What matrix do you want to swap rows/columns in? (A/B): A
+Do you want to swap rows or columns? (R/C): R
+Enter index for first row/column (starts at 0): 0
+Enter index for second row/column (starts at 0): 2
+
+Matrix after swapping rows 0 and 2:
+0 0 1
+0 1 0
+1 0 0
+
+--- Matrix Actions ---
+1. Update a matrix element
+2. Display matrix operations
+3. Swap rows/columns of matrix
+4. Exit
+Enter your choice (1-4): 3
+What matrix do you want to swap rows/columns in? (A/B): B
+Do you want to swap rows or columns? (R/C): 0
+Enter index for first row/column (starts at 0): 2
+Enter index for second row/column (starts at 0): 0
+Invalid choice.
+
+--- Matrix Actions ---
+1. Update a matrix element
+2. Display matrix operations
+3. Swap rows/columns of matrix
+4. Exit
+Enter your choice (1-4): 3
+What matrix do you want to swap rows/columns in? (A/B): B
+Do you want to swap rows or columns? (R/C): C
+Enter index for first row/column (starts at 0): 1
+Enter index for second row/column (starts at 0): 2
+
+Matrix after swapping columns 1 and 2:
+0 0 0
+0 9 0
+0 0 0
+
+--- Matrix Actions ---
+1. Update a matrix element
+2. Display matrix operations
+3. Swap rows/columns of matrix
+4. Exit
+Enter your choice (1-4): 2
+
+Matrix Addition (A + B):
+00 00 01
+00 10 00
+01 00 00
+
+Matrix Multiplication (A * B):
+0 0 0
+0 9 0
+0 0 0
+
+Diagonal Sums for Matrix A:
+Sum of main diagonal: 1
+Sum of second diagonal: 3
+
+Diagonal Sums for Matrix B:
+Sum of main diagonal: 9
+Sum of second diagonal: 9
+
+--- Matrix Actions ---
+1. Update a matrix element
+2. Display matrix operations
+3. Swap rows/columns of matrix
+4. Exit
+Enter your choice (1-4): 4
